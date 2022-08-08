@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <!--Font Awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Home</title>
+
+        <style>
+            a
+            {
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="purple darken-4">
+            <nav class="nav-wrapper purple darken-4">
+                <div class="container">
+                    <a href="#" class="brand-logo">GizoGizo</a>
+                    <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="solutions.html">Solutions</a></li>
+                        <li><a href="signup.html">Sign Up</a></li>
+                        <!-- Modal Trigger -->
+                        <li><a class="waves-effect waves-light btn modal-trigger" href="#modal1">LOGIN</a></li>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                    <ul class="sidenav purple darken-4" id="mobile-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="solutions.html">Solutions</a></li>
+                        <li><a href="signup.html">Sign Up</a></li>
+                        <li>
+                            <a class="waves-effect waves-light btn modal-trigger" href="#modal1">LOGIN</a>
+                        </li>
+                        <ul style="display: flex;">
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </ul>
+
+                </div>
+            </nav>
+            <div class="container center white-text" style="padding: 50px;">
+                <h5>Welcome To GizoGizo</h5>
+                <h1>Make Developers Happy</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde molestias officiis sequi quas illum tempore delectus beatae nesciunt? Non, facilis! Quibusdam exercitationem magnam tempore est ad delectus earum corporis inventore!</p>
+                <div>
+                    <a href="" class="btn white purple-text">LEARN MORE</a>
+                    <a href="" class="btn purple white-text">SIGN UP</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>LOGIN</h4>
+            <form action="">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input placeholder="E-mail" id="email" type="text">
+                        <label for="first_name">E-mail</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input placeholder="********" id="pass" type="password">
+                        <label for="pass">Password</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect grey btn-flat"><i class="fa-solid fa-recycle"></i>Change Password</a>
+            <a href="#!" class="modal-close waves-effect green btn-flat"><i class="fa-solid fa-unlock"></i>Login</a>
+        </div>
+        </div>
+
+
+        <!--Cards-->
+        <section>
+            <div class="container">
+                <div class="row center" style="padding: 30px;">
+                    <div class="col s12 l4">
+                        <div class="card">
+                            <div class="card-content">
+                                <i class="fa-solid fa-user fa-4x"></i>
+                                <h4>Free Account</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ab blanditiis fugit quibusdam provident! Impedit aperiam mollitia molestias fugit placeat?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 l4">
+                        <div class="card">
+                            <div class="card-content">
+                                <i class="fa-solid fa-database fa-4x"></i>
+                                <h4>NoSQL Databases</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ab blanditiis fugit quibusdam provident! Impedit aperiam mollitia molestias fugit placeat?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 l4">
+                        <div class="card">
+                            <div class="card-content">
+                                <i class="fa-solid fa-bolt-lightning fa-4x"></i>
+                                <h4>Fast Connections</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ab blanditiis fugit quibusdam provident! Impedit aperiam mollitia molestias fugit placeat?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--About-->
+        <section class="grey lighten-5 center">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 l8">
+                        <h2><span class="purple-text">About</span> US</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque officia ex architecto suscipit commodi porro, minima inventore autem eius magni laborum dignissimos, tempore quibusdam earum incidunt ullam. Laborum, quas minima.</p>
+                    </div>
+                    <div class="col s12 l4">
+                        <img src="History.jpeg" alt="" class="responsive-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--For dev-->
+        <section class="center white-text" style="background: url('images/dev.jpeg') center/cover no-repeat; padding: 50x;">
+            <div style="padding: 50px; background-color: rgba(76, 17, 83, 0.568);">
+                <div class="container">
+                <h3>For Developers, By Developers</h3>
+                </div>
+            </div>
+        </section>
+
+        <!--Work with-->
+        <section>
+            <div class="container center">
+                <h4>Work With Any Language</h4>
+                <div class="row">
+                    <div class="col s12 l2">
+                        <img src="
+                        " alt="" class="responsive-img">
+                    </div>
+                    <div class="col s12 l2">
+                        <img src="java.webp" alt="" class="responsive-img">
+                    </div>
+                    <div class="col s12 l2">
+                        <img src="php.avif" class="responsive-img">
+                    </div>
+                    <div class="col s12 l2">
+                        <img src="node.png" alt="" class="responsive-img">
+                    </div>
+                    <div class="col s12 l2">
+                        <img src="python.webp" alt="" class="responsive-img">
+                    </div>
+                    <div class="col s12 l2">
+                        <img src="ruby.webp" alt="" class="responsive-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Listen-->
+        <section  style="background: url('images/podcast.webp') center/cover no-repeat">
+            <div style=" background-color: rgba(164, 10, 185, 0.226);">
+            <div class="container">
+                <div class="row center align-wrapper">
+                    <div class="col s12 l8">
+                        <h4>Listen to the GizoGizo Podcast</h4>
+                        <p>Evry Thursday at 5pm GMT</p>
+                    </div>
+                    <div class="col s12 l4">
+                        <a href="" class="btn"><i class="fa-solid fa-podcast"></i> Listen</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!--Testmonial-->
+        <section>
+            <div class="container center" style="padding: 50px;">
+                <h5>Testimonial 1</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolore ea ab ratione animi, rerum nihil excepturi et inventore perspiciatis iste, maxime voluptatem vel sunt eos amet, veritatis corrupti quasi.</p>
+                <p>--Narcisse From NiebePhone</p>
+                <a href="" class="btn grey">READ MORE</a>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <footer class="page-footer purple darken-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 l8">
+                        <h4>About Us</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint nihil maxime ad reprehenderit rem beatae dolore nam odio amet eligendi. Maiores saepe dignissimos accusamus vitae expedita voluptates quasi laborum minima.</p>
+                    </div>
+                    <div class="col s12 l4 offset-2">
+                        <h5>Links</h5>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="solutions.html">Solutions</a></li>
+                            <li><a href="signup.html">Sing Up</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row purple darken-4 white-text" style="padding: 15px; margin: 0;">
+                <div class="col s12 l10">
+                    GizoGizo &copy; 2022
+                </div>
+                <div class="col s12 l2">
+                    <a href="#">Terms & Conditions</a>
+                </div>
+            </div>
+        </footer>
+
+        <!--Jquery-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.sidenav').sidenav();
+                $('.modal').modal();
+            });
+        </script>
+    </body>
+</html>
